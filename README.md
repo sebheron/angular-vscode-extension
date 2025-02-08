@@ -53,23 +53,6 @@ To run the extension in development mode:
    ```
 2. Open VS Code and run **Start Debugging** (`F5`) to launch an extension development host.
 
-## Project Structure
-
-```
-project-name/
-├── src/                   # Angular source code
-│   ├── app/               # Angular components
-│   ├── assets/            # Icons and assets
-│   ├── main.ts            # Angular entry point
-├── dist/                  # Build output
-├── extension/             # VS Code extension entry
-│   ├── index.ts           # Extension activation logic
-│   ├── webview/           # Webview integration
-├── package.json           # Project configuration
-├── tsconfig.json          # TypeScript configuration
-└── README.md              # Documentation
-```
-
 ## Configuration
 
 ### VS Code Integration

@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+	  "target": "ES2022",
+	  "lib": ["ESNext"],
+	  "module": "ESNext",
+	  "skipLibCheck": true,
+	  "moduleResolution": "Node",
+	  "isolatedModules": true,
+	  "moduleDetection": "force",
+	  "strict": true,
+	},
+	"include": ["extension", "vite.config.mts"]
+  }
+  

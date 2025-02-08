@@ -1,0 +1,58 @@
+{
+  "name": "project-name",
+  "displayName": "project-name",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "main": "dist/extension/index.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "project-name-sidebar",
+          "title": "Project Name",
+          "icon": "./assets/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "project-name-sidebar": [
+        {
+          "type": "webview",
+          "id": "project-name-panel",
+          "name": "Project Name",
+          "icon": "./assets/icon.svg",
+          "contextualTitle": "Project Name"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^1.13.0",
+    "@angular-devkit/build-angular": "^18.2.13",
+    "@angular/build": "^18.2.13",
+    "@tomjs/vite-plugin-vscode": "^3.2.1",
+    "@types/node": "^20.17.17",
+    "@types/vscode": "^1.97.0",
+    "@types/vscode-webview": "^1.57.5",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "eslint": "^9.16.0",
+    "typescript": "~5.5.2",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@angular/common": "^18.2.13",
+    "@angular/core": "^18.2.13",
+    "@angular/platform-browser": "^18.2.13",
+    "@angular/platform-browser-dynamic": "^18.2.13",
+    "@vscode-elements/elements-lite": "^0.3.0",
+    "tslib": "^2.3.0"
+  }
+}

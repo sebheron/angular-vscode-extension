@@ -22,7 +22,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/sebheron/angular-vscode-extension.git
    cd project-name
    ```
 2. Install dependencies:
